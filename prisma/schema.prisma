@@ -1,0 +1,121 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = env("DATABASE_URL")
+}
+
+// جهات الاتصال - نموذج التواصل
+model Contact {
+  id        String   @id @default(cuid())
+  name      String
+  email     String
+  phone     String?
+  company   String?
+  message   String
+  source    String?  // مصدر التواصل (موقع، واتساب، إلخ)
+  status    String   @default("new") // new, contacted, converted
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+}
+
+// طلبات العرض التجريبي
+model DemoRequest {
+  id           String   @id @default(cuid())
+  name         String
+  email        String
+  phone        String
+  company      String?
+  employees    String?  // عدد الموظفين
+  businessType String?  // نوع النشاط
+  notes        String?
+  status       String   @default("pending") // pending, contacted, scheduled, completed
+  createdAt    DateTime @default(now())
+  updatedAt    DateTime @updatedAt
+}
+
+// المقالات
+model Article {
+  id          String   @id @default(cuid())
+  title       String
+  slug        String   @unique
+  content     String
+  excerpt     String?
+  category    String?  // المحاسبة، الضرائب، ZATCA، إلخ
+  tags        String?  // مفصولة بفواصل
+  image       String?
+  author      String?
+  featured    Boolean  @default(false)
+  published   Boolean  @default(false)
+  views       Int      @default(0)
+  metaTitle       String?
+  metaDescription String?
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+}
+
+// الأسئلة الشائعة
+model FAQ {
+  id          String   @id @default(cuid())
+  question    String
+  answer      String
+  category    String?  // عام، الفوترة، الأسعار، الدعم
+  order       Int      @default(0)
+  published   Boolean  @default(true)
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+}
+
+// الباقات والأسعار
+model PricingPlan {
+  id              String   @id @default(cuid())
+  name            String
+  nameEn          String?
+  price           Float
+  priceYearly     Float?
+  currency        String   @default("SAR")
+  description     String?
+  features        String   // مفصولة بفواصل منقوطة
+  recommended     Boolean  @default(false)
+  order           Int      @default(0)
+  active          Boolean  @default(true)
+  createdAt       DateTime @default(now())
+  updatedAt       DateTime @updatedAt
+}
+
+// الشهادات والتقييمات
+model Testimonial {
+  id          String   @id @default(cuid())
+  name        String
+  company     String
+  position    String?
+  content     String
+  rating      Int      @default(5)
+  image       String?
+  approved    Boolean  @default(false)
+  order       Int      @default(0)
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+}
+
+// الإعدادات العامة
+model Setting {
+  id        String   @id @default(cuid())
+  key       String   @unique
+  value     String
+  type      String   @default("text") // text, json, boolean
+  updatedAt DateTime @updatedAt
+}
+
+// الاشتراك في النشرة البريدية
+model NewsletterSubscriber {
+  id        String   @id @default(cuid())
+  email     String   @unique
+  active    Boolean  @default(true)
+  createdAt DateTime @default(now())
+}

@@ -1,0 +1,114 @@
+# Robots.txt for المحاسب الشامل
+# https://almohasibalshamel.com
+
+# Google
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 1
+Disallow: /api/
+Disallow: /admin/
+
+# Bing
+User-agent: Bingbot
+Allow: /
+Crawl-delay: 1
+Disallow: /api/
+Disallow: /admin/
+
+# Yahoo
+User-agent: Slurp
+Allow: /
+Crawl-delay: 1
+Disallow: /api/
+Disallow: /admin/
+
+# DuckDuckGo
+User-agent: DuckDuckBot
+Allow: /
+Disallow: /api/
+Disallow: /admin/
+
+# Baidu
+User-agent: Baiduspider
+Allow: /
+Crawl-delay: 2
+Disallow: /api/
+Disallow: /admin/
+
+# Yandex
+User-agent: Yandex
+Allow: /
+Crawl-delay: 2
+Disallow: /api/
+Disallow: /admin/
+
+# AI Crawlers (لـ GEO - Generative Engine Optimization)
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: Claude-Web
+Allow: /
+
+User-agent: Anthropic-AI
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: YouBot
+Allow: /
+
+# Social Media Crawlers
+User-agent: Twitterbot
+Allow: /
+
+User-agent: facebookexternalhit
+Allow: /
+
+User-agent: LinkedInBot
+Allow: /
+
+User-agent: Pinterest
+Allow: /
+
+User-agent: WhatsApp
+Allow: /
+
+User-agent: TelegramBot
+Allow: /
+
+# Image Crawlers
+User-agent: Googlebot-Image
+Allow: /images/
+Allow: /*.png$
+Allow: /*.jpg$
+Allow: /*.webp$
+
+User-agent: Bingbot-Image
+Allow: /images/
+Allow: /*.png$
+Allow: /*.jpg$
+Allow: /*.webp$
+
+# Default
+User-agent: *
+Allow: /
+Disallow: /api/
+Disallow: /admin/
+Disallow: /_next/
+Disallow: /private/
+
+# Sitemap
+Sitemap: https://almohasibalshamel.com/sitemap.xml
+
+# Host
+Host: https://almohasibalshamel.com
+
+# Crawl-delay for all
+Crawl-delay: 1
