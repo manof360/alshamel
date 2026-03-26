@@ -117,7 +117,7 @@ export const metadata: Metadata = {
     },
   },
   verification: {
-    google: "google-site-verification-code",
+    google: "hvWo12HEbWeCI2S5Rsl7OUSVgQtgYSGlzaChSAKVcNk",
   },
   category: "Business Application",
   classification: "Accounting Software, ERP, E-Invoicing",
