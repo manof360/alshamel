@@ -1,5 +1,5 @@
 # Robots.txt for المحاسب الشامل
-# https://almohasibalshamel.com
+# https://amansoft.vercel.app
 
 # Google
 User-agent: Googlebot
@@ -105,10 +105,10 @@ Disallow: /_next/
 Disallow: /private/
 
 # Sitemap
-Sitemap: https://almohasibalshamel.com/sitemap.xml
+Sitemap: https://amansoft.vercel.app/sitemap.xml
 
 # Host
-Host: https://almohasibalshamel.com
+Host: https://amansoft.vercel.app
 
 # Crawl-delay for all
 Crawl-delay: 1

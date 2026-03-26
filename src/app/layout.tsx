@@ -11,7 +11,7 @@ const ibmPlexArabic = IBM_Plex_Sans_Arabic({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://almohasibalshamel.com"),
+  metadataBase: new URL("https://amansoft.vercel.app"),
   title: {
     default: "برنامج المحاسب الشامل - حلول محاسبية متكاملة | فوترة إلكترونية معتمدة من ZATCA",
     template: "%s | المحاسب الشامل",
@@ -66,7 +66,7 @@ export const metadata: Metadata = {
     "استشارات محاسبية",
     "حلول محاسبية متكاملة",
   ],
-  authors: [{ name: "المحاسب الشامل", url: "https://almohasibalshamel.com" }],
+  authors: [{ name: "المحاسب الشامل", url: "https://amansoft.vercel.app" }],
   creator: "المحاسب الشامل",
   publisher: "المحاسب الشامل",
   robots: {
@@ -88,7 +88,7 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     locale: "ar_SA",
-    url: "https://almohasibalshamel.com",
+    url: "https://amansoft.vercel.app",
     siteName: "المحاسب الشامل",
     title: "برنامج المحاسب الشامل - أفضل برنامج محاسبة في السعودية | فوترة إلكترونية معتمدة",
     description: "برنامج محاسبي متكامل للشركات والمؤسسات. فوترة إلكترونية معتمدة من هيئة الزكاة والضريبة ZATCA. أكثر من 15 سنة خبرة و10,000 عميل راضٍ. جرب مجاناً!",
@@ -111,9 +111,9 @@ export const metadata: Metadata = {
     images: ["/og-image.png"],
   },
   alternates: {
-    canonical: "https://almohasibalshamel.com",
+    canonical: "https://amansoft.vercel.app",
     languages: {
-      "ar-SA": "https://almohasibalshamel.com",
+      "ar-SA": "https://amansoft.vercel.app",
     },
   },
   verification: {
@@ -144,13 +144,13 @@ const jsonLd = {
     // 1. Organization Schema
     {
       "@type": "Organization",
-      "@id": "https://almohasibalshamel.com/#organization",
+      "@id": "https://amansoft.vercel.app/#organization",
       name: "المحاسب الشامل",
       alternateName: ["Al Shamel Accounting", "Almohasib Alshamel", "الشامل المحاسبي"],
-      url: "https://almohasibalshamel.com",
+      url: "https://amansoft.vercel.app",
       logo: {
         "@type": "ImageObject",
-        url: "https://almohasibalshamel.com/shamel-logo.png",
+        url: "https://amansoft.vercel.app/shamel-logo.png",
         width: 200,
         height: 200,
       },
@@ -222,7 +222,7 @@ const jsonLd = {
     // 2. Software Application Schema
     {
       "@type": "SoftwareApplication",
-      "@id": "https://almohasibalshamel.com/#software",
+      "@id": "https://amansoft.vercel.app/#software",
       name: "المحاسب الشامل",
       description: "برنامج محاسبي متكامل للشركات والمؤسسات في المنطقة العربية مع فوترة إلكترونية معتمدة من ZATCA. يدعم أكثر من 20 موديول للحلول المتخصصة.",
       applicationCategory: "BusinessApplication",
@@ -243,7 +243,7 @@ const jsonLd = {
           priceCurrency: "SAR",
           priceValidUntil: "2025-12-31",
           availability: "https://schema.org/InStock",
-          seller: { "@id": "https://almohasibalshamel.com/#organization" },
+          seller: { "@id": "https://amansoft.vercel.app/#organization" },
         },
         {
           "@type": "Offer",
@@ -253,7 +253,7 @@ const jsonLd = {
           priceCurrency: "SAR",
           priceValidUntil: "2025-12-31",
           availability: "https://schema.org/InStock",
-          seller: { "@id": "https://almohasibalshamel.com/#organization" },
+          seller: { "@id": "https://amansoft.vercel.app/#organization" },
         },
         {
           "@type": "Offer",
@@ -263,7 +263,7 @@ const jsonLd = {
           priceCurrency: "SAR",
           priceValidUntil: "2025-12-31",
           availability: "https://schema.org/InStock",
-          seller: { "@id": "https://almohasibalshamel.com/#organization" },
+          seller: { "@id": "https://amansoft.vercel.app/#organization" },
         },
         {
           "@type": "Offer",
@@ -273,7 +273,7 @@ const jsonLd = {
           priceCurrency: "SAR",
           priceValidUntil: "2025-12-31",
           availability: "https://schema.org/InStock",
-          seller: { "@id": "https://almohasibalshamel.com/#organization" },
+          seller: { "@id": "https://amansoft.vercel.app/#organization" },
         },
         {
           "@type": "Offer",
@@ -283,7 +283,7 @@ const jsonLd = {
           priceCurrency: "SAR",
           priceValidUntil: "2025-12-31",
           availability: "https://schema.org/InStock",
-          seller: { "@id": "https://almohasibalshamel.com/#organization" },
+          seller: { "@id": "https://amansoft.vercel.app/#organization" },
         },
         {
           "@type": "Offer",
@@ -293,7 +293,7 @@ const jsonLd = {
           priceCurrency: "SAR",
           priceValidUntil: "2025-12-31",
           availability: "https://schema.org/InStock",
-          seller: { "@id": "https://almohasibalshamel.com/#organization" },
+          seller: { "@id": "https://amansoft.vercel.app/#organization" },
         },
       ],
       featureList: [
@@ -323,7 +323,7 @@ const jsonLd = {
         ratingCount: "10000",
         bestRating: "5",
         worstRating: "1",
-        itemReviewed: { "@id": "https://almohasibalshamel.com/#software" },
+        itemReviewed: { "@id": "https://amansoft.vercel.app/#software" },
       },
       review: [
         {
@@ -353,24 +353,24 @@ const jsonLd = {
           reviewBody: "نظام متكامل ومرن. التوافق مع ZATCA ممتاز.",
         },
       ],
-      provider: { "@id": "https://almohasibalshamel.com/#organization" },
-      author: { "@id": "https://almohasibalshamel.com/#organization" },
-      publisher: { "@id": "https://almohasibalshamel.com/#organization" },
+      provider: { "@id": "https://amansoft.vercel.app/#organization" },
+      author: { "@id": "https://amansoft.vercel.app/#organization" },
+      publisher: { "@id": "https://amansoft.vercel.app/#organization" },
     },
     // 3. WebSite Schema
     {
       "@type": "WebSite",
-      "@id": "https://almohasibalshamel.com/#website",
-      url: "https://almohasibalshamel.com",
+      "@id": "https://amansoft.vercel.app/#website",
+      url: "https://amansoft.vercel.app",
       name: "المحاسب الشامل",
       description: "برنامج محاسبي متكامل للشركات والمؤسسات - فوترة إلكترونية معتمدة من ZATCA",
-      publisher: { "@id": "https://almohasibalshamel.com/#organization" },
+      publisher: { "@id": "https://amansoft.vercel.app/#organization" },
       inLanguage: "ar-SA",
       potentialAction: {
         "@type": "SearchAction",
         target: {
           "@type": "EntryPoint",
-          urlTemplate: "https://almohasibalshamel.com/search?q={search_term_string}",
+          urlTemplate: "https://amansoft.vercel.app/search?q={search_term_string}",
         },
         "query-input": "required name=search_term_string",
       },
@@ -379,7 +379,7 @@ const jsonLd = {
     {
       "@type": "WebApplication",
       name: "المحاسب الشامل - نسخة الويب",
-      url: "https://almohasibalshamel.com",
+      url: "https://amansoft.vercel.app",
       browserRequirements: "Requires JavaScript. Requires HTML5.",
       softwareVersion: "2024.1",
       operatingSystem: "Any",
@@ -468,13 +468,13 @@ const jsonLd = {
     // 6. LocalBusiness Schema (مهم للبحث المحلي)
     {
       "@type": "LocalBusiness",
-      "@id": "https://almohasibalshamel.com/#localbusiness",
+      "@id": "https://amansoft.vercel.app/#localbusiness",
       name: "المحاسب الشامل",
       alternateName: "Al Shamel Accounting",
-      image: "https://almohasibalshamel.com/shamel-logo.png",
+      image: "https://amansoft.vercel.app/shamel-logo.png",
       telephone: "+966505166252",
       email: "info@alshamel.com",
-      url: "https://almohasibalshamel.com",
+      url: "https://amansoft.vercel.app",
       priceRange: "$$",
       address: {
         "@type": "PostalAddress",
@@ -520,49 +520,49 @@ const jsonLd = {
           "@type": "ListItem",
           position: 1,
           name: "الرئيسية",
-          item: "https://almohasibalshamel.com/",
+          item: "https://amansoft.vercel.app/",
         },
         {
           "@type": "ListItem",
           position: 2,
           name: "من نحن",
-          item: "https://almohasibalshamel.com/#about",
+          item: "https://amansoft.vercel.app/#about",
         },
         {
           "@type": "ListItem",
           position: 3,
           name: "المميزات",
-          item: "https://almohasibalshamel.com/#features",
+          item: "https://amansoft.vercel.app/#features",
         },
         {
           "@type": "ListItem",
           position: 4,
           name: "الموديولات",
-          item: "https://almohasibalshamel.com/#modules",
+          item: "https://amansoft.vercel.app/#modules",
         },
         {
           "@type": "ListItem",
           position: 5,
           name: "المنتجات",
-          item: "https://almohasibalshamel.com/#products",
+          item: "https://amansoft.vercel.app/#products",
         },
         {
           "@type": "ListItem",
           position: 6,
           name: "الفوترة الإلكترونية",
-          item: "https://almohasibalshamel.com/#invoicing",
+          item: "https://amansoft.vercel.app/#invoicing",
         },
         {
           "@type": "ListItem",
           position: 7,
           name: "الأسئلة الشائعة",
-          item: "https://almohasibalshamel.com/#faq",
+          item: "https://amansoft.vercel.app/#faq",
         },
         {
           "@type": "ListItem",
           position: 8,
           name: "تواصل معنا",
-          item: "https://almohasibalshamel.com/#contact",
+          item: "https://amansoft.vercel.app/#contact",
         },
       ],
     },
@@ -571,7 +571,7 @@ const jsonLd = {
       "@type": "Service",
       name: "برنامج محاسبة متكامل",
       description: "خدمة برامج محاسبية متكاملة للشركات والمؤسسات",
-      provider: { "@id": "https://almohasibalshamel.com/#organization" },
+      provider: { "@id": "https://amansoft.vercel.app/#organization" },
       serviceType: "Accounting Software",
       areaServed: [
         { "@type": "Country", name: "السعودية" },
@@ -654,7 +654,7 @@ const jsonLd = {
           position: 1,
           name: "التواصل معنا",
           text: "تواصل معنا عبر الواتساب أو نموذج التواصل لطلب نسخة تجريبية مجانية",
-          item: "https://almohasibalshamel.com/#contact",
+          item: "https://amansoft.vercel.app/#contact",
         },
         {
           "@type": "HowToStep",
@@ -709,8 +709,8 @@ export default function RootLayout({
         <meta name="apple-mobile-web-app-status-bar-style" content="#1e40af" />
         
         {/* Additional SEO meta tags */}
-        <link rel="author" href="https://almohasibalshamel.com" />
-        <link rel="canonical" href="https://almohasibalshamel.com" />
+        <link rel="author" href="https://amansoft.vercel.app" />
+        <link rel="canonical" href="https://amansoft.vercel.app" />
         
         {/* GEO Tags for local SEO */}
         <meta name="geo.region" content="SA-01" />

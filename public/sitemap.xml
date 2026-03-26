@@ -7,19 +7,19 @@
   
   <!-- الصفحة الرئيسية -->
   <url>
-    <loc>https://almohasibalshamel.com/</loc>
+    <loc>https://amansoft.vercel.app/</loc>
     <lastmod>2024-12-01</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
     <image:image>
-      <image:loc>https://almohasibalshamel.com/og-image.png</image:loc>
+      <image:loc>https://amansoft.vercel.app/og-image.png</image:loc>
       <image:title>المحاسب الشامل - برنامج محاسبي متكامل</image:title>
     </image:image>
   </url>
   
   <!-- قسم من نحن -->
   <url>
-    <loc>https://almohasibalshamel.com/#about</loc>
+    <loc>https://amansoft.vercel.app/#about</loc>
     <lastmod>2024-12-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
@@ -27,7 +27,7 @@
   
   <!-- قسم المميزات -->
   <url>
-    <loc>https://almohasibalshamel.com/#features</loc>
+    <loc>https://amansoft.vercel.app/#features</loc>
     <lastmod>2024-12-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
@@ -35,7 +35,15 @@
   
   <!-- قسم الموديولات -->
   <url>
-    <loc>https://almohasibalshamel.com/#modules</loc>
+    <loc>https://amansoft.vercel.app/#modules</loc>
+    <lastmod>2024-12-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  
+  <!-- قسم الأنشطة التجارية -->
+  <url>
+    <loc>https://amansoft.vercel.app/#business-activities</loc>
     <lastmod>2024-12-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
@@ -43,7 +51,7 @@
   
   <!-- قسم المنتجات -->
   <url>
-    <loc>https://almohasibalshamel.com/#products</loc>
+    <loc>https://amansoft.vercel.app/#products</loc>
     <lastmod>2024-12-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
@@ -51,15 +59,23 @@
   
   <!-- قسم الفوترة الإلكترونية -->
   <url>
-    <loc>https://almohasibalshamel.com/#invoicing</loc>
+    <loc>https://amansoft.vercel.app/#invoicing</loc>
     <lastmod>2024-12-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   
+  <!-- قسم المدونة -->
+  <url>
+    <loc>https://amansoft.vercel.app/#blog</loc>
+    <lastmod>2024-12-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
   <!-- قسم الأسئلة الشائعة -->
   <url>
-    <loc>https://almohasibalshamel.com/#faq</loc>
+    <loc>https://amansoft.vercel.app/#faq</loc>
     <lastmod>2024-12-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -67,7 +83,7 @@
   
   <!-- قسم التواصل -->
   <url>
-    <loc>https://almohasibalshamel.com/#contact</loc>
+    <loc>https://amansoft.vercel.app/#contact</loc>
     <lastmod>2024-12-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
